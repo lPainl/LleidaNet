@@ -1,5 +1,6 @@
-import {Component} from '@angular/core';
-import {FormBuilder, FormControl, NgForm, Validators} from '@angular/forms';
+/*
+import { Component } from "@angular/core";
+import { FormBuilder, Validators } from "@angular/forms";
 
 @Component({
   selector: 'app-root',
@@ -43,3 +44,4 @@ export class AppComponent {
     }
   }
 }
+*/
