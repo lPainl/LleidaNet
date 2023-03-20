@@ -19,3 +19,6 @@ curl --location 'http://localhost:3000/sendSmS' \
     "phone": "+573162433820",
     "textToSend": "Hola"
 }'
+
+#Front
+   - Angular, inclui solo el componente del formulario
