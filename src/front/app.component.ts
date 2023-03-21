@@ -22,13 +22,13 @@ export class AppComponent {
     const text = this.formSmS.get('text')?.value;
 
     if (phone && text) {
-      await fetch("https://api.lleida.net/dtd/sms/v2",
+      await fetch("api",
         {
           method: 'POST',
           body: JSON.stringify({
             sms: {
-              user: "user1@proves_frontend",
-              password: "prova1234",
+              user: "user_credentials",
+              password: "pass",
               dst: {
                 num: [encodeURI(phone)
                 ]
